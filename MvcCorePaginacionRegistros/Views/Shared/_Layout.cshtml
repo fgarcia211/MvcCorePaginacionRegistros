@@ -25,6 +25,12 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Paginacion" asp-action="PaginarGrupoDepartamentos">PagGrupoDept</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Empleados" asp-action="EmpleadosXPosicion">PagGrupoEmp</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Empleados" asp-action="EmpleadosXOficio">EmpXOficio</a>
+                        </li>
                         @await Component.InvokeAsync("Departamentos");
                     </ul>
                 </div>
